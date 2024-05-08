@@ -10,16 +10,16 @@ from sklearn.metrics import mean_squared_error
 import joblib
 
 # Load survival rate prediction model
-survival_rate_model = joblib.load('C:/Users/ahmad.wicaksana/Downloads/Data/survival_rate_model.pkl')
+survival_rate_model = joblib.load('C:/Users/LENOVO/Downloads/data/survival_rate_model.pkl')
 
 # Load ABW prediction model
-abw_model = joblib.load('C:/Users/ahmad.wicaksana/Downloads/Data/average_weight_prediction_model.pkl')
+abw_model = joblib.load('C:/Users/LENOVO/Downloads/data/average_weight_prediction_model.pkl')
 
 # Load biomass prediction model
-biomass_model = joblib.load('C:/Users/ahmad.wicaksana/Downloads/Data/biomass.pkl')
+biomass_model = joblib.load('C:/Users/LENOVO/Downloads/data/biomass.pkl')
 
 # Load revenue prediction model
-revenue_model = joblib.load('C:/Users/ahmad.wicaksana/Downloads/Data/revenue.pkl')
+revenue_model = joblib.load('C:/Users/LENOVO/Downloads/data/revenue.pkl')
 
 # Streamlit app
 def main():
