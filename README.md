@@ -16,11 +16,7 @@ This service provides predictive modeling for shrimp farming, focusing on foreca
    - **Biomass Forecast**: Estimate the biomass of shrimp (in kilograms) at the end of cultivation.
    - **Revenue Forecast**: Predict the revenue value of harvested shrimp based on forecasted weight and market price.
 
-4. **Feature Importance Analysis**: Determine important features/variables for making predictions to gain insights into shrimp farming.
-
-5. **Recommendations**: Provide recommendations on optimizing shrimp farming practices based on data analysis.
-
-6. **Deployment**:
+4. **Deployment**:
    - **Feature Store**: Store engineered features that were used during model development for future reference.
    - **Source Code**: The source code is available on GitHub, along with clear instructions for setting up the service.
    - **API Documentation**: Detailed documentation on how to make API requests to access the predictive modeling service.
@@ -32,4 +28,9 @@ This service provides predictive modeling for shrimp farming, focusing on foreca
 1. **Clone the Repository**: Clone the GitHub repository containing the source code.
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/wicaksatya/shrimp.git
+   
+2. **Access streamlit**: CStart the Streamlit app to deploy the service locally.
+
+   ```bash
+   streamlit run app.py
